@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TabletGroceriesAutomation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/TabletGroceriesAutomation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
