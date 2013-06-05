@@ -13,7 +13,7 @@ public class BookaSlot extends UiAutomatorTestCase
 {
     public void test_BookHomeDeliverySlot() throws UiObjectNotFoundException
     {
-        /*Create a new object to Launch Tesco app from the list.
+        /*Create a new object to Launch Tesco app from the list. Any app can be launched by changing the parameters
         LaunchApp tescoApp = new LaunchApp();
         // Get the app name from the Constants class and pass it to the LaunchApp class
         // http://stackoverflow.com/questions/3262670/how-to-use-the-variable-of-one-class-into-another-class-using-java

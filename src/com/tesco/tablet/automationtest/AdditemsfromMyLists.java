@@ -72,7 +72,7 @@ public class AdditemsfromMyLists extends UiAutomatorTestCase
             Constants usualslisttxt = new Constants();
             if(_checklistnotempty(usualslisttxt.NOUSUALS))
             {
-                System.out.println("****My Usuals: User has no usuals in his account. So, no items could be added****");
+                System.out.println("****My Usuals: User has no usuals in his account. So, no items could be added.****");
 
             }
             else

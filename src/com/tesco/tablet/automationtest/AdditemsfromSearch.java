@@ -17,7 +17,7 @@ public class AdditemsfromSearch extends UiAutomatorTestCase
 {
     public void test_additemsfromSearchResultsList() throws UiObjectNotFoundException
     {
-        // Create a new object to Launch Tesco app from the list.
+        // Create a new object to Launch Tesco app from the list. This can be changed to launch any app.
         //LaunchApp tescoApp = new LaunchApp();
 
         // Get the app name from the Constants class and pass it to the LaunchApp class

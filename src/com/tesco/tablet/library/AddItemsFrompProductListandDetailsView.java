@@ -20,14 +20,14 @@ public class AddItemsFrompProductListandDetailsView
         String producttext = productName.getText();
         if(!"Offer".equals(producttext))
         {
-            System.out.println("Product to be added to the basket is " + producttext);
+            System.out.println("Product to be added to the basket is--> " + producttext);
 
         }
         else
         {
             UiObject productNameNew = firstGridProduct.getChild(new UiSelector().className("android.widget.TextView").index(2));
             String producttextnew = productNameNew.getText();
-            System.out.println("Product to be added to the basket is " + producttextnew);
+            System.out.println("Product to be added to the basket is--> " + producttextnew);
         }
 
         // Store the quantity details before adding the product.

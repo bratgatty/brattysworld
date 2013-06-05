@@ -28,7 +28,7 @@ public class OnBoardDismissal
             }
             else
             {
-                System.out.println("No Onboarding Screen to show");
+                System.out.println("No Onboarding Screen to show to the user.");
                 return true;
             }
 

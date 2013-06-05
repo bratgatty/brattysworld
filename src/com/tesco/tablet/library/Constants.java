@@ -22,9 +22,9 @@ public class Constants {
     // User can update these parameters as per the Test Cases
     static
     {
-        EMAIL = "llt33@hsc.com";
+        EMAIL = "llt29@hsc.com";
         PASSWORD = "qwerty";
-        SEARCHITEM = "jam";
+        SEARCHITEM = "butter";
         APPNAME = "Tesco";
         SUPERDEPARTMENT = "Bakery";
         DEPARTMENT = "Bread";

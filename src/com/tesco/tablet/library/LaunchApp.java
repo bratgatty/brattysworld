@@ -52,7 +52,7 @@ public class LaunchApp extends UiAutomatorTestCase
         }
         else
         {
-            System.out.println("****Fail:Tesco app not present****");
+            System.out.println("****Fail: Tesco app not present in the system apps.****");
 
         }
     }

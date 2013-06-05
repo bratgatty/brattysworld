@@ -56,7 +56,7 @@ public class AdditemsfromDepartment extends UiAutomatorTestCase
             UiObject gotoHomeScreen = new UiObject(new UiSelector().className("android.widget.LinearLayout").description("Navigate up"));
             gotoHomeScreen.clickAndWaitForNewWindow();
 
-            // To avoid the bug of department list open when user gets back to Dashboard.
+            // To avoid the bug of department list open when user gets back to Dashboard. This will be fixed in next bulilds
             getUiDevice().pressBack();
 
         }

@@ -36,7 +36,7 @@ public class SignIn extends UiAutomatorTestCase
 		if(_navigatetoSignIn())
 		{
 			//
-			System.out.println("****User went to Sign In screen****");
+			System.out.println("****User went to Sign In screen as expected.****");
 			if(_enterdetailsandsignin())
 			{
 				System.out.println("****Pass: User signed into the app succesfully");	
