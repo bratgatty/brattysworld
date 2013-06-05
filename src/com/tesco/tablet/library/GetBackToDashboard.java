@@ -4,9 +4,9 @@ import com.android.uiautomator.core.UiObject;
 import com.android.uiautomator.core.UiObjectNotFoundException;
 import com.android.uiautomator.core.UiSelector;
 
-/**
- * Created by apple on 02/06/13.
- */
+/* Currently this class is not used as the implementation has changed in Release 2, In Release 1, after booking slot, user needed to go back to Choose Delivery method screen
+and the from there, user needed to tap Home option from dropdown. In Release 2, user directly goes to Dashboard after booking slot.*/
+
 public class GetBackToDashboard {
     public boolean _returntoHomeScreen() throws UiObjectNotFoundException
     {

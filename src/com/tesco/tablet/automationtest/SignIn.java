@@ -13,16 +13,6 @@ import com.android.uiautomator.core.UiDevice;
 
 public class SignIn extends UiAutomatorTestCase
 {
-    // Launch Tesco app from the app list.
-    /*private final LaunchApp tescoapp = new LaunchApp();
-
-    @Override
-    public void setUp() throws Exception {
-        super.setUp();
-        tescoapp.launchapp("Tesco", getUiDevice());
-    }*/
-
-
 
     public void test_SignintotheApp() throws UiObjectNotFoundException
     {

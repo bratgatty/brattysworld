@@ -1,40 +1,63 @@
 package com.tesco.tablet.automationtest;
 
 //Import the uiautomator libraries
-import com.android.uiautomator.core.UiObject;
-import com.android.uiautomator.core.UiObjectNotFoundException;
-import com.android.uiautomator.core.UiScrollable;
-import com.android.uiautomator.core.UiSelector;
+import com.android.uiautomator.core.*;
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;
+import com.tesco.tablet.library.OnBoardDismissal;
+import com.tesco.tablet.library.LaunchApp;
+import com.tesco.tablet.library.Constants;
 import com.tesco.tablet.library.GetBackToDashboard;
-
-
 
 
 public class BookaSlot extends UiAutomatorTestCase
 {
-	
     public void test_BookHomeDeliverySlot() throws UiObjectNotFoundException
     {
-    	if(_navigatetoBookaslotScreen())
-    	{
-    		System.out.println("****Pass: App navigated to Choose Delivery Method Screen as expected****");
-    		if(_navigatetoHomeDeliveryScreen())
-    		{
-    			System.out.println("****Pass: App navigated to Home Delivery Screen as expected****");
-    			if(_chooseslotandBook())
-    			{
-    				System.out.println("****Pass: App booked Home Delivery Screen as expected****");
+        /*Create a new object to Launch Tesco app from the list.
+        LaunchApp tescoApp = new LaunchApp();
+        // Get the app name from the Constants class and pass it to the LaunchApp class
+        // http://stackoverflow.com/questions/3262670/how-to-use-the-variable-of-one-class-into-another-class-using-java
+        tescoApp.launchapp(Constants.APPNAME,getUiDevice());*/
 
-                    // Navigate back to the Dashboard
-                    GetBackToDashboard gotoHomeScreen = new GetBackToDashboard();
-    				gotoHomeScreen._returntoHomeScreen();
-    				
-    			}
-    		}
-    		
-    	}
-    	
+        //Check if the slot is already booked.
+        if(_checkslotalreadyBooked())
+        {
+            System.out.println("-->Slot already booked<--.So, executing the next test case");
+        }
+        else
+        {
+            if(_navigatetoBookaslotScreen())
+            {
+                System.out.println("****Pass: App navigated to Choose Delivery Method Screen as expected****");
+                if(_navigatetoHomeDeliveryScreen())
+                {
+                    System.out.println("****Pass: App navigated to Home Delivery Screen as expected****");
+
+                    if(_chooseslotandBook())
+                    {
+                        System.out.println("****Pass: App booked Home Delivery Screen as expected****");
+
+                        // Navigate back to the Dashboard
+                    /*GetBackToDashboard gotoHomeScreen = new GetBackToDashboard();
+    				gotoHomeScreen._returntoHomeScreen();*/
+
+                        // Check whether user navigated back to Home screen after booking slot
+                        UiObject welcometxtvalidation = new UiObject(new UiSelector().className("android.widget.TextView").textContains("Welcome"));
+                        if(welcometxtvalidation.exists())
+                        {
+                            System.out.println("****Pass: App navigated to Home screen as expected****");
+                        }
+                        else
+                        {
+                            System.out.println("****Fail: App failed to get back to the Dashboard****");
+                        }
+
+                    }
+                }
+
+            }
+
+        }
  
     }
     
@@ -158,7 +181,26 @@ public class BookaSlot extends UiAutomatorTestCase
         }
     	return false;
     }
-    
+
+    private boolean _checkslotalreadyBooked() throws UiObjectNotFoundException
+    {
+        UiCollection dashboardgrid = new UiCollection(new UiSelector().className("android.widget.RelativeLayout"));
+        UiObject dashboardcards = dashboardgrid.getChild(new UiSelector().className("android.widget.LinearLayout"));
+        UiObject slotcard = dashboardcards.getChild(new UiSelector().className("android.widget.RelativeLayout").index(2));
+        UiObject slotinfo = slotcard.getChild(new UiSelector().className("android.widget.LinearLayout"));
+        UiObject slotdata = slotinfo.getChild(new UiSelector().className("android.widget.TextView").index(1));
+        String slotstatus = slotdata.getText();
+        System.out.println(slotstatus);
+        if("Book a slot".equals(slotstatus))
+        {
+            System.out.println("--> Slot is not yet booked.<---");
+            return false;
+
+        }
+        return true;
+
+
+    }
 
     
 }

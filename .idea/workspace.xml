@@ -7,16 +7,17 @@
     <file path="/Dummy.txt" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1368887673219" ignored="false" />
     <file path="/TakeScreenshot.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1368919945064" ignored="false" />
     <file path="/SignIn.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370199025939" ignored="false" />
-    <file path="/BookaSlot.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370201190847" ignored="false" />
+    <file path="/BookaSlot.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370443999752" ignored="false" />
     <file path="/ScreenshotTaker.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1369929447610" ignored="false" />
     <file path="/OnBoardDismissal.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1369929429531" ignored="false" />
     <file path="/LaunchApp.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370197378941" ignored="false" />
-    <file path="/AdditemsfromDepartment.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370335130474" ignored="false" />
+    <file path="/AdditemsfromDepartment.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370380081038" ignored="false" />
     <file path="/Constants.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370274199813" ignored="false" />
-    <file path="/GetBackToDashboard.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370201039615" ignored="false" />
-    <file path="$PROJECT_DIR$/bin/classes.dex.d" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370292456812" ignored="false" />
-    <file path="/AdditemsfromSearch.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370253438690" ignored="false" />
-    <file path="/AdditemsfromMyLists.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370292801981" ignored="false" />
+    <file path="/GetBackToDashboard.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370423324185" ignored="false" />
+    <file path="$PROJECT_DIR$/bin/classes.dex.d" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370426926871" ignored="false" />
+    <file path="/AdditemsfromSearch.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370382457540" ignored="false" />
+    <file path="/AdditemsfromMyLists.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370424009720" ignored="false" />
+    <file path="/AddItemsFromProductListView.java" changelist="e9f0cbee-08d8-48ae-a936-803d55b7df74" time="1370381720447" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,6 +68,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -80,8 +81,10 @@
       <file leaf-file-name="SignIn.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="16" selection-start="3677" selection-end="3762" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="25" column="22" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,16 +92,16 @@
       <file leaf-file-name="AdditemsfromMyLists.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromMyLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="64" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.0">
+            <state line="97" column="42" selection-start="4413" selection-end="4413" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdditemsfromDepartment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java">
+      <file leaf-file-name="Constants.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="8" selection-start="875" selection-end="911" vertical-scroll-proportion="0.2293578">
+            <state line="24" column="22" selection-start="811" selection-end="811" vertical-scroll-proportion="0.45864663">
               <folding />
             </state>
           </provider>
@@ -118,14 +121,18 @@
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/OnBoardDismissal.java" />
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/ScreenshotTaker.java" />
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/LaunchApp.java" />
-        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/GetBackToDashboard.java" />
-        <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/BookaSlot.java" />
-        <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java" />
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromSearchResultsList.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/AddItemsFromProductDetailsView.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/AddItemsFromProductListView.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/AddItemsFromListandDetailsView.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/AddItemsFrompProductListandDetailsView.java" />
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromSearch.java" />
-        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/GetBackToDashboard.java" />
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromMyLists.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/BookaSlot.java" />
         <option value="$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java" />
+        <option value="$PROJECT_DIR$/src/com/tesco/tablet/library/Constants.java" />
       </list>
     </option>
   </component>
@@ -160,6 +167,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,7 +233,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,9 +250,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.SignIn">
     <configuration default="false" name="SignIn" type="JUnit" factoryName="JUnit" temporary="true">
@@ -384,11 +391,12 @@
       <workItem from="1370249691517" duration="8550000" />
       <workItem from="1370286533460" duration="36000" />
       <workItem from="1370289130434" duration="5493000" />
+      <workItem from="1370357198741" duration="26790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75191000" />
+    <option name="totallyTimeSpent" value="101981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="0" />
@@ -396,16 +404,16 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6724387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32689655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="618" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -477,20 +485,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="42" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/BookaSlot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
@@ -501,36 +495,33 @@
     <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/android-sdks/platforms/android-16/uiautomator.jar!/com/android/uiautomator/testrunner/UiAutomatorTestCase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="49" selection-start="500" selection-end="500" vertical-scroll-proportion="0.27820712" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/GetBackToDashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="7" selection-start="644" selection-end="644" vertical-scroll-proportion="0.4587156">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/OnBoardDismissal.java">
@@ -542,53 +533,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/LaunchApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="29" selection-start="0" selection-end="4581" vertical-scroll-proportion="-0.7201835">
+        <state line="15" column="2" selection-start="491" selection-end="582" vertical-scroll-proportion="0.2706767">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/BookaSlot.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/GetBackToDashboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="12" selection-start="1314" selection-end="1721" vertical-scroll-proportion="-1.6972477">
+        <state line="7" column="133" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0690184">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/AddItemsFrompProductListandDetailsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/LaunchApp.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/BookaSlot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="242" selection-end="287" vertical-scroll-proportion="0.022488756">
+        <state line="19" column="62" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="22" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="10" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="64" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-0.12730062">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromMyLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="42" selection-start="4413" selection-end="4413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/library/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="0.112443775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="16" selection-start="3677" selection-end="3762" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromMyLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="64" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tesco/tablet/automationtest/AdditemsfromDepartment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="875" selection-end="911" vertical-scroll-proportion="0.2293578">
+        <state line="24" column="22" selection-start="811" selection-end="811" vertical-scroll-proportion="0.45864663">
           <folding />
         </state>
       </provider>

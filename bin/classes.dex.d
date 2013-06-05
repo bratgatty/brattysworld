@@ -5,6 +5,8 @@
 /Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/automationtest/BookaSlot.class \
 /Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/automationtest/LaunchSettings.class \
 /Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/automationtest/SignIn.class \
+/Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/library/AddItemsFrompProductListandDetailsView.class \
+/Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/library/AddItemsFromProductListView.class \
 /Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/library/Constants.class \
 /Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/library/GetBackToDashboard.class \
 /Users/apple/Documents/workspace/TabletGroceriesAutomation/bin/classes/com/tesco/tablet/library/LaunchApp.class \

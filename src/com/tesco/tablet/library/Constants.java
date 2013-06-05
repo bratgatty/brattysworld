@@ -24,10 +24,10 @@ public class Constants {
     {
         EMAIL = "llt33@hsc.com";
         PASSWORD = "qwerty";
-        SEARCHITEM = "bananas";
+        SEARCHITEM = "jam";
         APPNAME = "Tesco";
-        SUPERDEPARTMENT = "Fresh Food";
-        DEPARTMENT = "Fresh Fruit";
+        SUPERDEPARTMENT = "Bakery";
+        DEPARTMENT = "Bread";
 
     }
 
